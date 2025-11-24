@@ -13,7 +13,7 @@ func main() {
 		Students []Student
 	}
 	
-	modules := make(map[int]Class)
+	modules := make(map[int][]Class)
 
 	student1 := Student{
 		FirstName: "Ramon",
@@ -34,7 +34,7 @@ func main() {
 		Students: []Student{student1, student2, student3},
 	}
 
-	modules[346] = INA24bL
+	modules[346] = []Class{INA24bL, INA24bL}
 
 	
 	fmt.Println("Modules:", modules, "\nClasses:", INA24bL, "\nStudents:", student1, student2, student3)
