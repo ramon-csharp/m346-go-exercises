@@ -73,6 +73,9 @@ func main() {
 	rick := Person{FullName{"Rick", "Astley"}, BirthDate{6, 2, 1966}}
 	edsger := Person{FullName{"Edsger", "Dijkstra"}, BirthDate{11, 5, 1930}}
 	alan := Person{FullName{"Alan", "Turing"}, BirthDate{23, 6, 1912}}
+	ramon := Person{FullName{"Ramon", "Zielke"}, BirthDate{30, 1, 2009}}
+	leo := Person{FullName{"Leo", "Ciccone"}, BirthDate{19, 12, 2008}}
+	ylli := Person{FullName{"Ylli", "Abazi"}, BirthDate{21, 8, 2008}}
 
 	outputWithZodiacSign(grace)
 	outputWithZodiacSign(dennis)
