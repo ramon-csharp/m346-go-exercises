@@ -1,7 +1,13 @@
 package main
 
-// TODO: implement the function computeGrade
+import "fmt"
+
+func computeGrade(points float32, maxPoints float32) float32{
+	grade := (points/maxPoints)*5+1
+	return grade
+}
 
 func main() {
-	// TODO: call the function computeGrade
+	grade := computeGrade(50, 50)
+	fmt.Printf("Grade: " + "%.2f\n", grade)
 }
